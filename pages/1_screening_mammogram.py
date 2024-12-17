@@ -6,7 +6,7 @@ st.set_page_config(layout="wide")
 #image2 = Image.open('images/cancer in thailand2.jpg')
 #st.image(image2,width=600)
 
-st.subheader('Mamogram screening in high risk cases : Budget year 2024')
+st.subheader('Mamogram screening in high risk cases : Budget year 2025')
 
 components.html(
  """
