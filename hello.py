@@ -14,7 +14,7 @@ st.subheader('📊 2. HPV test for cervical cancer')
 st.markdown('Update data monthly')
 st.text('')
 st.markdown('ที่มุมขวาล่าง ท่านสามารถขยายหน้าจอ,save dashboard หรือส่งต่อลิงค์')
-image1 = Image.open(r"H:\My Drive\nhso_api\web\Capture.JPG")
+image1 = Image.open("Capture.JPG")
 st.image(image1,width=200)
 
 st.text('')
