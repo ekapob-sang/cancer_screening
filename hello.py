@@ -22,7 +22,7 @@ if st.session_state.clicked:
     st.bar_chart(np.random.randn(50, 3))
 
   
-st.subheader('👈 Please select the graphs from this sidebar.' )
+st.subheader('👈xx Please select the graphs from this sidebar.' )
 st.subheader('📊 1. Mammogram screening for breast cancer in high risk group')
 st.markdown('Update data every Monday')
 st.subheader('📊 2. HPV test for cervical cancer')
