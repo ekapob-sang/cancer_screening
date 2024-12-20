@@ -17,9 +17,10 @@ st.subheader('📊 2. HPV test for cervical cancer')
 st.markdown('Click here 🡻 (Update data monthly)')
 if st.button("HPV 🦠👩‍⚕🧬🩺💉"):
     st.switch_page("pages/2_screening_hpv.py")
-
+    
 st.text('')
-st.markdown('ที่มุมขวาล่าง ท่านสามารถขยายหน้าจอ,save dashboard หรือส่งต่อลิงค์')
+st.text('')
+st.markdown('📌 ที่มุมขวาล่าง ท่านสามารถขยายหน้าจอ,save dashboard หรือส่งต่อลิงค์')
 image1 = Image.open("Capture.JPG")
 st.image(image1,width=200)
 
