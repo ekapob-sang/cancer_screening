@@ -12,11 +12,12 @@ st.subheader('📊 1. Mammogram screening for breast cancer in high risk group')
 st.markdown('Click here 🡻 (Update data every Monday)')
 if st.button("Mammogram 👧🏻📝"):
     st.switch_page("pages/1_screening_mammogram.py")
-st.markdown('Update data every Monday')
+
 st.subheader('📊 2. HPV test for cervical cancer')
+st.markdown('Click here 🡻 (Update data monthly)')
 if st.button("HPV 🦠👩‍⚕🧬🩺💉"):
     st.switch_page("pages/2_screening_hpv.py")
-st.markdown('Update data monthly')
+
 st.text('')
 st.markdown('ที่มุมขวาล่าง ท่านสามารถขยายหน้าจอ,save dashboard หรือส่งต่อลิงค์')
 image1 = Image.open("Capture.JPG")
