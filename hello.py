@@ -9,7 +9,7 @@ st.subheader('''📖 This page provides Thailand's cancer screening program data
 
 
 st.subheader('📊 1. Mammogram screening for breast cancer in high risk group')
-st.markdown('Click here 🡻')
+st.markdown('Click here 🡻 (Update data every Monday)')
 if st.button("Mammogram 👧🏻📝"):
     st.switch_page("pages/1_screening_mammogram.py")
 st.markdown('Update data every Monday')
