@@ -7,6 +7,9 @@ st.set_page_config(layout="wide")
 #st.image(image2,width=600)
 st.subheader('''📖 This page provides Thailand's cancer screening program data in budget year 2025''')
 
+if st.button("Page 1"):
+    st.switch_page("1_screening_mammogram.py")
+  
 st.subheader('👈 Please select the graphs from this sidebar.' )
 st.subheader('📊 1. Mammogram screening for breast cancer in high risk group')
 st.markdown('Update data every Monday')
