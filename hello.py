@@ -26,7 +26,7 @@ st.image(image1,width=200)
 
 st.text('')
 st.text('')
-st.markdown('NOTE: Thank you NHSO for providing us the valuable data ')
+st.markdown('📌 NOTE: Thank you NHSO for providing us the valuable data ')
 #st.markdown('NOTE: Thank you Tableau public (https://public.tableau.com/app/discover) for nice data visualization tool ')
 st.markdown('🏥 This page was created by Digital medicine department, National Cancer Institute of Thailand, Bangkok ')
 st.markdown('💬 For any comment or suggestion, please email to : it.ncithailand@gmail.com     ')
