@@ -2,7 +2,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 from PIL import Image
 
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide",initial_sidebar_state="collapsed")
 #image2 = Image.open('images/cancer in thailand2.jpg')
 #st.image(image2,width=600)
 st.subheader('''📖 This page provides Thailand's cancer screening program data in budget year 2025''')
