@@ -9,6 +9,8 @@ st.subheader('''📖 This page provides Thailand's cancer screening program data
 
 if st.button("Page 1"):
     st.switch_page("temp/1_screening_mammogram.py")
+if st.button("Page 2"):
+    st.switch_page("screening_mammogram.py")
   
 st.subheader('👈 Please select the graphs from this sidebar.' )
 st.subheader('📊 1. Mammogram screening for breast cancer in high risk group')
