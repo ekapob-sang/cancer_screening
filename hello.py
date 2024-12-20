@@ -7,10 +7,20 @@ st.set_page_config(layout="wide",initial_sidebar_state="collapsed")
 #st.image(image2,width=600)
 st.subheader('''📖 This page provides Thailand's cancer screening program data in budget year 2025''')
 
-if st.button("Page 1"):
-    st.switch_page("temp/1_screening_mammogram.py")
-if st.button("Page 2"):
-    st.switch_page("screening_mammogram.py")
+if 'clicked' not in st.session_state:
+    st.session_state.clicked = False
+
+def click_button():
+    st.session_state.clicked = True
+
+st.button('Click me', on_click=click_button)
+
+if st.session_state.clicked:
+    with st.container():
+    st.write("This is inside the container")
+    # You can call any Streamlit command, including custom components:
+    st.bar_chart(np.random.randn(50, 3))
+
   
 st.subheader('👈 Please select the graphs from this sidebar.' )
 st.subheader('📊 1. Mammogram screening for breast cancer in high risk group')
