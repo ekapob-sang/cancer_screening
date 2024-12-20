@@ -17,9 +17,9 @@ st.button('Click me', on_click=click_button)
 
 if st.session_state.clicked:
     with st.container():
-    st.write("This is inside the container")
+     st.write("This is inside the container")
     # You can call any Streamlit command, including custom components:
-    st.bar_chart(np.random.randn(50, 3))
+     st.bar_chart(np.random.randn(50, 3))
 
   
 st.subheader('👈xx Please select the graphs from this sidebar.' )
