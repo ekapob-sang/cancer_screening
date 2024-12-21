@@ -9,16 +9,12 @@ st.subheader('''📖 This page provides Thailand's cancer screening program data
 
 
 st.subheader('📊 1. Mammogram screening for breast cancer in high risk group')
-col1, col2 = st.columns([1, 5])
-with col2:
-    st.markdown(' 👈🏻 Click here (Update data every Monday)')
-with col1:
-    if st.button("Mammogram 👧🏻📝"):
+if st.button("😀 Mammogram 👧🏻📝 (Update data every Monday)"):
        st.switch_page("pages/1_screening_mammogram.py")
 
 st.subheader('📊 2. HPV test for cervical cancer')
 st.markdown('Click here 🡻 (Update data monthly)')
-if st.button("HPV 🦠👩‍⚕🧬🩺💉"):
+if st.button("HPV 👩‍⚕🧬🩺💉"):
     st.switch_page("pages/2_screening_hpv.py")
     
 st.text('')
