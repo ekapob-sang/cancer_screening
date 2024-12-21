@@ -9,7 +9,7 @@ st.subheader('''📖 This page provides Thailand's cancer screening program data
 
 
 st.subheader('📊 1. Mammogram screening for breast cancer in high risk group')
-col1, col2 = st.columns(2
+col1, col2 = st.columns(2)
 with col2:
     st.markdown('Click here 🡻 (Update data every Monday)')
 with col1:
