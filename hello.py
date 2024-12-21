@@ -6,15 +6,15 @@ st.set_page_config(layout="wide",initial_sidebar_state="collapsed")
 #image2 = Image.open('images/cancer in thailand2.jpg')
 #st.image(image2,width=600)
 st.subheader('''📖 This page provides Thailand's cancer screening program data in budget year 2025''')
-
+st.text('')
 
 st.subheader('📊 1. Mammogram screening for breast cancer in high risk group')
 if st.button("😀 Mammogram 👧🏻📝 (Update data every Monday)"):
        st.switch_page("pages/1_screening_mammogram.py")
-
+       
+st.text('')
 st.subheader('📊 2. HPV test for cervical cancer')
-st.markdown('Click here 🡻 (Update data monthly)')
-if st.button("HPV 👩‍⚕🧬🩺💉"):
+if st.button("😎 HPV 👩‍⚕🧬🩺💉  (Update data monthly)"):
     st.switch_page("pages/2_screening_hpv.py")
     
 st.text('')
