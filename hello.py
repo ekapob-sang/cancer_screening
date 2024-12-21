@@ -5,7 +5,7 @@ from PIL import Image
 st.set_page_config(layout="wide",initial_sidebar_state="collapsed")
 #image2 = Image.open('images/cancer in thailand2.jpg')
 #st.image(image2,width=600)
-st.subheader('''📖 This page provides Thailand's cancer screening program data in budget year 2025''',divider="grey")
+st.subheader('''📖 This page provides Thailand's cancer screening program data in budget year 2025''',divider="blue")
 st.text('')
 
 st.subheader('📊 1. Mammogram screening for breast cancer in high risk group')
